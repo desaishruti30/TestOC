@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="TestOC(failed)">
+    <classes>
+      <class name="OpenCartTestcases.VerifyLablesDisplaye">
+        <methods>
+          <include name="tearDown"/>
+          <include name="EmailLableTest"/>
+          <include name="ConfirmPWLableTest"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- OpenCartTestcases.VerifyLablesDisplaye -->
+      <class name="OpenCartTestcases.VerifySuccessfullRegiTest">
+        <methods>
+          <include name="initialization"/>
+          <include name="tearDown"/>
+          <include name="EnterDataTest"/>
+        </methods>
+      </class> <!-- OpenCartTestcases.VerifySuccessfullRegiTest -->
+    </classes>
+  </test> <!-- TestOC(failed) -->
+</suite> <!-- Failed suite [Suite] -->
